@@ -101,9 +101,9 @@ export const GET = async (
 
 ## Middleware
 
-You can apply middleware to your routes by creating a file called `/api/middlewares.ts`. This file must export a configuration object with what middleware you want to apply to which routes.
+You can apply middleware to your routes by creating a file called `/api/_middlewares._ts`. This file must export a configuration object with what middleware you want to apply to which routes.
 
-For example, if you want to apply a custom middleware function to the `/store/custom` route, you can do so by adding the following to your `/api/middlewares.ts` file:
+For example, if you want to apply a custom middleware function to the `/store/custom` route, you can do so by adding the following to your `/api/_middlewares._ts` file:
 
 ```ts
 import { defineMiddlewares } from "@medusajs/framework/http"
